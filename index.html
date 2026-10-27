@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="郑宇文 Z 的个人作品集：产品视频、3dmax 渲染、Skill 个人家具制作模板、广告素材与 AI 网站素材图。">
+  <title>郑宇文 Z · 作品集</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23242b27'/%3E%3Ctext x='13' y='49' fill='white' font-family='Arial' font-size='48'%3EZ%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="catalog.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#works">跳转到作品</a>
+  <header class="topbar">
+    <a href="#about" class="brand" aria-label="郑宇文，返回个人介绍">Z<span>郑宇文</span></a>
+    <nav aria-label="作品分类">
+      <a href="#films">产品视频</a><a href="#renders">3dmax 渲染</a><a href="#skills">Skill 模板</a><a href="#campaigns">广告素材</a><a href="#ai">AI 网站素材图</a>
+    </nav>
+    <button class="theme" type="button" aria-label="切换深色外观">深色</button>
+  </header>
+  <main>
+    <section id="about" class="intro wrap">
+      <div class="intro-label">PERSONAL PORTFOLIO <span>家具 · 空间 · 视觉</span></div>
+      <div class="intro-main"><h1>郑宇文<span class="name-en">Z.</span></h1>
+      <div class="biography"><p class="lead">让家具的形态、质感与使用场景，<br class="desktop-break">清晰可见。</p><p>你好，我是郑宇文，也可以叫我 Z。我围绕家具产品开展视觉创作，通过 3ds Max 渲染、AI 图像制作与视频表达，呈现产品在不同空间中的样子。</p><p>我重视产品结构、材质细节与画面的一致性，也关注视觉内容在网站、广告和产品展示中的实际应用。这里收录了我的渲染作品、个人家具制作模板、平面素材与产品视频。</p></div></div>
+      <div class="profile"><span>创作方向</span><p>家具产品渲染 <b>/</b> 场景与材质表达 <b>/</b> AI 视觉制作 <b>/</b> 产品动态展示</p></div>
+    </section>
+    <div id="works" class="wrap works"><div id="collections"></div></div>
+    <footer class="wrap"><a class="footer-name" href="#about">郑宇文 <span>/ Z</span></a><p>感谢观看我的作品。</p><a href="#about">回到顶部 ↑</a></footer>
+  </main>
+  <dialog id="viewer" aria-label="作品大图查看器">
+    <div class="viewer-top"><p id="viewer-label" aria-live="polite"></p><button id="close" aria-label="关闭大图">关闭 ×</button></div>
+    <div class="viewer-stage"><img id="viewer-image" alt=""></div>
+    <div class="viewer-bottom"><button id="previous" aria-label="上一张图片">← 上一张</button><span id="viewer-count"></span><button id="next" aria-label="下一张图片">下一张 →</button></div>
+  </dialog>
+  <noscript><p class="wrap">请启用浏览器 JavaScript 以浏览完整作品集。</p></noscript>
+</body>
+</html>
